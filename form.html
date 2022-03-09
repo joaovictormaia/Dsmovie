@@ -30,9 +30,30 @@
                 <div>
                     <div class="DsMovie-card">
                         <img src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/lHe8iwM4Cdm6RSEiara4PN8ZcBd.jpg" alt="Vikings">
-                        <div class="DsMovie-card-description">
+                        <div class="DsMovie-form-description">
                             <h3>Vikings</h3>
-                            <a class="DsMovie-btn" href="index.html">Cancelar</a>
+                            <Form class="DsMovie-form">
+                                <div class="form-grup DsMovie-form-group">
+                                    <label for="email">Informe seu email</label>
+                                    <input class="form-control" type="email" id="email">
+                                </div>
+                                <div class="form-group DsMovie-form-group">
+                                    <label for="score">Informe sua avaliação</label>
+                                    <select class="form-control" name="score" id="score">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <div class="DsMovie-form-btn-container">
+                                    <button class="DsMovie-btn" type="submit">Salvar</button>
+                                    <a class="DsMovie-btn" href="index.html">Cancelar</a>
+                                </div>
+                            </Form>
+
+                            
                         </div>
                      </div>
                 </div>
